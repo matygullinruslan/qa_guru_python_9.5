@@ -17,5 +17,8 @@ def browser_config():
     browser.config.window_width = 1000
     browser.config.window_height = 1000
 
+    driver_options = webdriver.ChromeOptions()
+    driver_options.page_load_strategy = 'eager'
+
     yield
     browser.quit()

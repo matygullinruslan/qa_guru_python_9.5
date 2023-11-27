@@ -17,6 +17,7 @@ def test_registration_demo_qa():
     browser.element('.react-datepicker__day--021').click()
     browser.element('#subjectsInput').type('Biology').press_enter()
     browser.element('[for="hobbies-checkbox-1"]').click()
-    browser.element('#uploadPicture').set_value(
-        os.path.abspath(os.path.join(os.path.dirname(tests.__file__), 'resources/rus.png')))
+    browser.element('#uploadPicture').send_keys(os.path.abspath('tests/resources/rus.jpg'))
+
+
     ...
