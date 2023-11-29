@@ -3,7 +3,7 @@ import os.path
 
 
 def test_registration_demo_qa():
-    browser.open('https://demoqa.com/automation-practice-form')
+    browser.open('/automation-practice-form')
     browser.element('#firstName').type('Ruslan')
     browser.element('#lastName').type('Matygullin')
     browser.element('#userEmail').type('ruslan@mail.ru')
