@@ -1,11 +1,9 @@
-from selene import browser, by, be, os, command, have
+from selene import browser, by,  command, have
 import os.path
-import pytest
-import tests
 
 
 def test_registration_demo_qa():
-    browser.open('/')
+    browser.open('https://demoqa.com/automation-practice-form')
     browser.element('#firstName').type('Ruslan')
     browser.element('#lastName').type('Matygullin')
     browser.element('#userEmail').type('ruslan@mail.ru')
