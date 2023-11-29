@@ -1,4 +1,4 @@
-from selene import browser, by,  command, have
+from selene import browser, by, command, have
 import os.path
 
 
@@ -36,4 +36,4 @@ def test_registration_demo_qa():
         'NCR Gurgaon',
 
     )
-     )
+    )

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a55972-a8bc-42db-a24c-fdefe19b814f" name="Changes" comment="Исправление замечаний преподавателя">
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_demo_qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_demo_qa.py" afterDir="false" />
-    </list>
+    <list default="true" id="20a55972-a8bc-42db-a24c-fdefe19b814f" name="Changes" comment="Удаление лишних" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701262318460</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Удаление лишних mpor">
+      <option name="closed" value="true" />
+      <created>1701285102570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701285102570</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +224,7 @@
     <MESSAGE value="Готовый вариант для проверки домашнего задания" />
     <MESSAGE value="Удалил лишние файлы" />
     <MESSAGE value="Исправление замечаний преподавателя" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление замечаний преподавателя" />
+    <MESSAGE value="Удаление лишних" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удаление лишних" />
   </component>
 </project>
